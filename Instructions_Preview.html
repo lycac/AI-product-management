@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AI Product Management - Project 1</title>
+
+      
+    <h1 class="job-title">Udacity: Create A Medical Image Annotation Job Project</h1>
+
+  <div id="assignment-instructions">
+    <a class="btn dropup" data-module="hideable-instructions" data-instructions-scope="job-00">Instructions <b class='caret'></b></a>
+    <div class="collapse in well">
+      <p><h1>Overview</h1>
+        
+      <p>In this job, you will be presented with x-ray images that are about <strong>cases of pneumonia in children</strong>. Review the images to distinguish between healthy and pneumonia x-ray images.</p>
+      <hr>
+      <h1>Steps</h1><ol>
+      <li>Examine the image.</li>
+      <li>Determine if there are visual symptoms that indicate pneumonia.</li>
+      <li>Should the image depict signs of pneumonia, mark it as <strong>positive</strong>. However, if it is unclear and needs more investigation, mark it as <strong>unknown</strong>. If everything is cleared up with no signs of pneumonia, mark it as <strong>negative</strong>. Make sure to include a reason to each of your answers.</li></ol>
+      
+      <hr>
+      
+      <h1>Rules &amp; Tips</h1>
+      
+      <p><strong>The images can be classified as positive, negative or unknown:&nbsp;</strong></p><ul>
+      
+        <li><strong>Positive</strong> means the image has clear signs of pneumonia which may include a few things: areas of cloudiness/opacity in several concentrated areas or one large area. You may also see a general pattern of opacity that obscures the structure of the lungs, heart, and diaphragm.</li>
+        <li><strong>Negative</strong> means a healthy image that depicts clear lungs without any areas of abnormal cloudiness/opacity; there may be structured, web-like vasculature in the lungs but otherwise that area should be clear. In healthy images, you are also more likely to see a diaphragm shadow.&nbsp;</li>
+        <li><strong>Unknown</strong> means that the image is quite unclear and needs more investigation to determine whether it’s negative or positive.&nbsp;</li></ul><p><strong>Note:</strong><br>Tweets that are purely factual (links to news articles without comment) are not necessarily Neutral – consider whether the fact/news itself is Positive or Negative regarding the business and select one of those when possible.</p>
+        
+        <hr>
+        <h1>Example</h1>
+        <table><tbody><tr><td style="width: 49.0599%;"><h2><strong><span style="color: rgb(0, 168, 133);">Positive</span></strong></h2>In this example, there is a distinct, cloudy area that obscures the lungs which is a clear indicator of a pneumonia.<br></td><td style="width: 50.8226%;"><img src="https://s3.amazonaws.com/video.udacity-data.com/topher/2019/April/5cad75cc_img278-0101-572/img278-0101-572.jpeg" class="fr-dii" style="width: 440px"></td></tr><tr><td style="width: 49.0599%;"><br><br><br></td><td style="width: 50.8226%;"><br></td></tr>
+        
+        <tr><td style="width: 49.0599%;"><h2><strong><span style="color: rgb(250, 197, 28);">Negative</span></strong></h2>This example is a normal, healthy image that depicts clear lungs without any areas of abnormal cloudiness/opacity.<br><br></td><td style="width: 50.8226%;"><img src="https://s3.amazonaws.com/video.udacity-data.com/topher/2019/April/5cad8065_im-0030/im-0030.jpeg" class="fr-dii" style="width: 440px"></td></tr>
+        
+        <tr><td colspan="2" style="width: 120.858%;"><br><br><br></td></tr><tr><td style="width: 49.0599%;"><h2><strong><span style="color: rgb(184, 49, 47);">Unknown</span></strong></h2>In this example, the overall image is cloudy. In that case, this needs more investigation to determine if the cloudiness is a sign of pneumonia or the x-ray is just unclear.<br><br><br></td><td style="width: 50.8226%;"><img src="https://s3.amazonaws.com/video.udacity-data.com/topher/2019/April/5cad75cb_img834-im1002-2747/img834-im1002-2747.jpeg" class="fr-dii" style="width: 440px"></td></tr></tbody></table></p>
+
+    </div>
+  </div>
+
+  <hr>
+        <h1>Identify if the images depict pneumonia</h1>
+
+        <table><tbody>
+          
+        <tr><td style="width: 49.0599%;"></h2>Does this indicate pneumonia?(required)<br>      
+        <div class="cml_row"><label class=""><input name="u0033191023186037126171030078041205222049098055173147160182206115086232248012021216164052014013205[pneumonia_present]" type="radio" value="yes" class="pneumonia_present validates-required" />
+          Positive</label></div>
+         
+        <div class="cml_row"><label class=""><input name="u0033191023186037126171030078041205222049098055173147160182206115086232248012021216164052014013205[pneumonia_present]" type="radio" value="no" class="pneumonia_present validates-required" />
+          Negative</label></div>
+         
+        <div class="cml_row"><label class=""><input name="u0033191023186037126171030078041205222049098055173147160182206115086232248012021216164052014013205[pneumonia_present]" type="radio" value="Unknown" class="pneumonia_present validates-required" />
+          Unknown</label></div></td><td style="width: 50.8226%;">
+            
+        <img src="https://s3.amazonaws.com/video.udacity-data.com/topher/2019/April/5cad75cc_img278-0101-572/img278-0101-572.jpeg" class="fr-dii" style="width: 440px"></td></tr><tr><td style="width: 49.0599%;"><br><br><br></td><td style="width: 50.8226%;"><br></td></tr>
+        
+        <tr><td style="width: 49.0599%;"></h2>Does this indicate pneumonia?(required)<br>      
+        <div class="cml_row"><label class=""><input name="u0033191023186037126171030078041205222049098055173147160182206115086232248012021216164052014013205[pneumonia_present]" type="radio" value="yes" class="pneumonia_present validates-required" />
+          Positive</label></div>
+           
+        <div class="cml_row"><label class=""><input name="u0033191023186037126171030078041205222049098055173147160182206115086232248012021216164052014013205[pneumonia_present]" type="radio" value="no" class="pneumonia_present validates-required" />
+          Negative</label></div>
+           
+        <div class="cml_row"><label class=""><input name="u0033191023186037126171030078041205222049098055173147160182206115086232248012021216164052014013205[pneumonia_present]" type="radio" value="Unknown" class="pneumonia_present validates-required" />
+            Unknown</label></div></td><td style="width: 50.8226%;">
+              
+        <img src="https://s3.amazonaws.com/video.udacity-data.com/topher/2019/April/5cad8065_im-0030/im-0030.jpeg" class="fr-dii" style="width: 440px"></td></tr><tr><td style="width: 49.0599%;"><br><br><br></td><td style="width: 50.8226%;"><br></td></tr>
+        
+        <tr><td style="width: 49.0599%;"></h2>Does this indicate pneumonia?(required)<br>      
+        <div class="cml_row"><label class=""><input name="u0033191023186037126171030078041205222049098055173147160182206115086232248012021216164052014013205[pneumonia_present]" type="radio" value="yes" class="pneumonia_present validates-required" />
+          Positive</label></div>
+             
+        <div class="cml_row"><label class=""><input name="u0033191023186037126171030078041205222049098055173147160182206115086232248012021216164052014013205[pneumonia_present]" type="radio" value="no" class="pneumonia_present validates-required" />
+          Negative</label></div>
+             
+        <div class="cml_row"><label class=""><input name="u0033191023186037126171030078041205222049098055173147160182206115086232248012021216164052014013205[pneumonia_present]" type="radio" value="Unknown" class="pneumonia_present validates-required" />
+              Unknown</label></div></td><td style="width: 50.8226%;">
+                
+        <img src="https://s3.amazonaws.com/video.udacity-data.com/topher/2019/April/5cad8065_im-0030/im-0030.jpeg" class="fr-dii" style="width: 440px"></td></tr><tr><td style="width: 49.0599%;"><br><br><br></td><td style="width: 50.8226%;"><br></td></tr>
+      </tbody>
+      </table>
+      </p>
+  
+
+
+</div>
+
+
+  </div>
+</div>
+
+        <div class="validation-status validation-in-progress alert">
+          Validation in progress
+        </div>
+
+        <div class="validation-status validation-succeeded alert alert-success">
+          Validation succeeded
+        </div>
+
+        <div class="validation-status validation-failed alert alert-error">
+          Validation failed
+        </div>
+
+        <div class="form-actions">
+          <input id="check" type="submit" class="submit btn btn-warning" value="Test Validators">
+        </div>
+
+
+        </div><!--/content-->
+      </div> <!-- /container -->
+    </div>
+
+    <div id="footer">
+</div>
+
+  </body>
+</html>
